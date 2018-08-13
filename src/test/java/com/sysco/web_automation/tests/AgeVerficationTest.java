@@ -10,8 +10,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.sysco.web_automation.functions.Login;
-import com.sysco.web_automation.functions.AgeVerification;
-import org.testng.asserts.SoftAssert;
 
 @Listeners(SyscoLabListener.class)
 

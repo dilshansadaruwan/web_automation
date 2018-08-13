@@ -1,9 +1,8 @@
 package com.sysco.web_automation.tests;
 
 
-import com.sysco.web_automation.data.LoginData;
+
 import com.sysco.web_automation.functions.Login;
-import com.sysco.web_automation.utils.ExcelUtil;
 import com.sysco.web_automation.utils.TestBase;
 import org.testng.Assert;
 import org.testng.ITestContext;

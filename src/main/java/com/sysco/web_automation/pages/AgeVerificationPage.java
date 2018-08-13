@@ -43,6 +43,7 @@ public class AgeVerificationPage extends PageBase {
     }
 
     public void waitTillPageLoad(){
+        syscoLabUI.sleep(5);
         syscoLabUI.waitTillElementLoaded(btnEnter);
     }
 

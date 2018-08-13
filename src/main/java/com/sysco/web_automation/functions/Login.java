@@ -15,8 +15,7 @@ public class Login  {
 
     public static void loadLoginPage() {
         DriverSetUpUtil.setToRunLocally();
-        DesiredCapabilities capabilities = SyscoLabCapabilityUtil.getPCCapabilities("MAC", "chrome");
-        capabilities.setBrowserName(BrowserType.CHROME);
+        DesiredCapabilities capabilities = null;
         ogmLoginPage.loadLoginPage(capabilities, Constants.APP_URL);
 
 

@@ -17,4 +17,8 @@ public class PageBase {
         syscoLabUI.driver.manage().window().maximize();
 
     }
+
+    public void wait(int seconds) {
+        syscoLabUI.sleep(seconds);
+    }
 }

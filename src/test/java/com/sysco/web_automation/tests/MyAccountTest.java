@@ -29,7 +29,7 @@ public class MyAccountTest {
     @Test(description = "Verify user can go to My Account login page",alwaysRun = true)
     public void testMyAccountLoginPageLoad(){
         myAccount.goToMyAccountLoginPage();
-
+        myAccount.wait(5);
     }
 
     @Test(description = "Verify email validation message",dependsOnMethods = "testMyAccountLoginPageLoad",alwaysRun = true)

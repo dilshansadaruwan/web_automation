@@ -41,4 +41,8 @@ public class MyAccount {
 
         return myAccountPage.isWelcomemesageDispalyed();
     }
+
+    public static void wait(int seconds) {
+        myAccountPage.wait(seconds);
+    }
 }

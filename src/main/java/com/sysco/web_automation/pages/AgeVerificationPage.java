@@ -23,16 +23,16 @@ public class AgeVerificationPage extends PageBase {
 
     }
     public void selectMonth(String month){
+
         syscoLabUI.selectFromDropDown(ddMonth,month);
 
     }
     public void selectYear(String year){
+
         syscoLabUI.selectFromDropDown(ddYear,year);
 
     }
-   /* public void selectCountry(String country){
 
-    }*/
     public void clickEnterBtn(){
         syscoLabUI.click(btnEnter);
 

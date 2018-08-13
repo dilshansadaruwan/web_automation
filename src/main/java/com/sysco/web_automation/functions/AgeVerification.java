@@ -8,7 +8,7 @@ public class AgeVerification {
 
 
     public static void enterBirthDay(String Day,String Month,String Year){
-        ageVerificationPage.waitTillPageLoad();
+        //ageVerificationPage.waitTillPageLoad();
         ageVerificationPage.selectDay(Day);
         ageVerificationPage.selectMonth(Month);
         ageVerificationPage.selectYear(Year);

@@ -34,7 +34,7 @@ public class AgeVerficationTest {
 
     }
 
-    @Test(description = "Verify legal age users are navigated to home page", dependsOnMethods = "testAgeLessThan18",alwaysRun = true)
+    @Test(description = "Verify legal age users are navigated to home page",alwaysRun = true)
     public  void testAgeMoreThan18(){
 
         ageVerification.enterBirthDay("12","August","1990");

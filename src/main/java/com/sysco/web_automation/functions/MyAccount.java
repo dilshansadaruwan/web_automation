@@ -29,6 +29,7 @@ public class MyAccount {
     }
 
     public static boolean isEmailValidationDisplayed(){
+
         return myAccountPage.isEmailValidationDisplayed();
     }
 

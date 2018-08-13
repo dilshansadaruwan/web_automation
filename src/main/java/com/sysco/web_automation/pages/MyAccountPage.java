@@ -16,7 +16,7 @@ private By lblWelcomeMessage = By.xpath("/html/body/div[2]/div[3]/div[2]/div[1]/
 
 
 public void loadAccountPage(){
-    syscoLabUI.sleep(10);
+    syscoLabUI.sleep(5);
     syscoLabUI.click(btnMyAccount);
     Assert.assertTrue(syscoLabUI.isDisplayed(lblMyAccountPageTitle));
 }
@@ -43,10 +43,12 @@ public void clearPassword(){
 }
 
 public boolean isEmailValidationDisplayed(){
+    syscoLabUI.waitTillElementLoaded(lblEmailValidationText);
     return syscoLabUI.isDisplayed(lblEmailValidationText);
 }
 
 public boolean isPasswordValidationDisplayed(){
+    syscoLabUI.waitTillElementLoaded(lblPasswordValidationText);
     return syscoLabUI.isDisplayed(lblPasswordValidationText);
 }
 

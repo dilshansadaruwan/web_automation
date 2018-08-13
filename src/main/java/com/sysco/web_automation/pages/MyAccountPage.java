@@ -22,15 +22,18 @@ public void loadAccountPage(){
 }
 
 public void enterEmail(String email){
+    syscoLabUI.waitTillElementLoaded(txtEmail);
     syscoLabUI.sendKeys(txtEmail,email);
 
 }
 
 public void enterPassword(String password){
+    syscoLabUI.waitTillElementLoaded(txtPassword);
     syscoLabUI.sendKeys(txtPassword,password);
 }
 
 public void clickLogIn(){
+    syscoLabUI.waitTillElementLoaded(btnLogIn);
     syscoLabUI.click(btnLogIn);
 }
 
